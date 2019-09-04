@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="m.todays.pilates">
+	<logger name="design.arch.nara">
 		<level value="info" />
 	</logger>
 	

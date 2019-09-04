@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-public class PilatesUtils {
+public class CustomUtils {
 	
 	public static List getWeekDays(int week, String yyyyMM) {
 		List result = new ArrayList();

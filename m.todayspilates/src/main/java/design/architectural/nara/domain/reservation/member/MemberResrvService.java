@@ -26,7 +26,7 @@ import design.architectural.nara.common.SessionUtils;
 import design.architectural.nara.common.CommonData.ATTEND;
 import design.architectural.nara.common.api.ApiResponse;
 import design.architectural.nara.domain.lesson.LessonMapper;
-import design.architectural.nara.utils.PilatesUtils;
+import design.architectural.nara.utils.CustomUtils;
 import lombok.extern.slf4j.Slf4j;
 
 @Service

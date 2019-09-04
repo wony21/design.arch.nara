@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="m.todays.pilates.domain.user.UserMapper">
+<mapper namespace="design.architectural.nara.domain.user.UserMapper">
     <select id="getUser" resultType="camelmap" statementType="PREPARED">
         SELECT *
         FROM USER_M

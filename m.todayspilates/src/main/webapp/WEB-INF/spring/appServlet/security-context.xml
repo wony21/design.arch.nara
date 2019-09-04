@@ -51,7 +51,7 @@
         <access-denied-handler error-page="/wrongapproach.jsp" />
     </http>
     
-    <beans:bean id="loginFailureHandler" class="m.todays.pilates.security.CustomAuthenticationFailHandler"/>
+    <beans:bean id="loginFailureHandler" class="design.architectural.nara.security.CustomAuthenticationFailHandler"/>
 
     <beans:bean class="org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler"/>
      
@@ -59,6 +59,6 @@
         <authentication-provider ref="customAuthenticationProvider"/>
     </authentication-manager>
      
-    <beans:bean id="customAuthenticationProvider" class="m.todays.pilates.security.CustomAuthenticationProvider"/>
+    <beans:bean id="customAuthenticationProvider" class="design.architectural.nara.security.CustomAuthenticationProvider"/>
 
 </beans:beans>

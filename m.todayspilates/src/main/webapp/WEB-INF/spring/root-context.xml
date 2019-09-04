@@ -5,7 +5,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 	
-	<context:component-scan base-package="m.todays.pilates" />
+	<context:component-scan base-package="design.architectural.nara" />
 	<!-- MyBatis 	
 	<bean id="dataSourceSpied" class="org.apache.commons.dbcp2.BasicDataSource">
 		<property name="driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
@@ -30,7 +30,7 @@
 
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
-		<property name="typeAliasesPackage" value="m.todays.pilates" />
+		<property name="typeAliasesPackage" value="design.architectural.nara" />
 		<property name="configLocation" value="classpath:/mybatis-config.xml" />
 		<property name="mapperLocations" value="classpath:/mappers/*.xml" />
 	</bean>
@@ -40,7 +40,7 @@
 	</bean>	
 	
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="m.todays.pilates.domain" />
+		<property name="basePackage" value="design.architectural.nara" />
 	</bean>
 	
 </beans>
