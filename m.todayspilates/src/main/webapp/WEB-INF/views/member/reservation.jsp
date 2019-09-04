@@ -1,4 +1,4 @@
-<%@page import="m.todays.pilates.common.SessionUtils" %>
+<%@page import="design.architectural.nara.common.SessionUtils" %>
 <%@ page language="java" contentType="text/html; charset=utf-8"
          pageEncoding="utf-8" %>
 <%@ page import="java.util.UUID" %>

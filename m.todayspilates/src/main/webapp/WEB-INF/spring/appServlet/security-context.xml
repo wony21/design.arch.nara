@@ -28,7 +28,7 @@
         <intercept-url pattern="/loginFail" access="IS_AUTHENTICATED_ANONYMOUSLY" />
         <intercept-url pattern="/" access="ROLE_USER,ROLE_TEACHER,ROLE_ADMIN" />
         <intercept-url pattern="/api/**" access="ROLE_USER,ROLE_TEACHER,ROLE_ADMIN" />
-		<intercept-url pattern="/test" access="ROLE_USER,ROLE_TEACHER,ROLE_ADMIN"/>
+		<intercept-url pattern="/test" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
 		<intercept-url pattern="/admin" access="ROLE_ADMIN"/>
         <intercept-url pattern="/teacher" access="ROLE_TEACHER,ROLE_ADMIN"/>
         <intercept-url pattern="/member" access="ROLE_USER,ROLE_ADMIN"/>

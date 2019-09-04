@@ -9,7 +9,7 @@
 
 	<typeAliases>
 		<typeAlias alias="hashmap" type="java.util.HashMap" />
-		<typeAlias alias="camelmap" type="m.todays.pilates.common.CamelCaseMap" />
+		<typeAlias alias="camelmap" type="design.architectural.nara.common.CamelCaseMap" />
 	</typeAliases>
 
 </configuration>

@@ -6,4 +6,8 @@
     	FROM COMMON_CODE_M
     	WHERE GROUP_CD = #{groupCd}
     </select>
+    <select id="test" parameterType="hashmap" resultType="camelmap" statementType="PREPARED">
+    	SELECT USER_ID, USER_PS, USER_NM, EMAIL, MOBILE
+    	FROM CM_USER
+    </select>
 </mapper>
