@@ -60,6 +60,11 @@ public class HomeController {
 		model.addAttribute("username", userName);
 		return index;
 	}
+	
+	@RequestMapping(value = "/index", method = RequestMethod.GET)
+	public String index(Locale locale, Model model) {
+		return "index";
+	}
 
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String login(Locale locale, Model model) {

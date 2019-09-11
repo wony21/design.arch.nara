@@ -23,6 +23,11 @@
 	<resources mapping="/images/**" location="/resources/images/" />
 	<resources mapping="/js/**" location="/resources/js/" />
 	<resources mapping="/css/**" location="/resources/css/" />
+	<resources mapping="/color/**" location="/resources/color/" />
+	<resources mapping="/contactform/**" location="/resources/contactform/" />
+	<resources mapping="/fonts/**" location="/resources/fonts/" />
+	<resources mapping="/ico/**" location="/resources/ico/" />
+	<resources mapping="/img/**" location="/resources/img/" />
 
 	<!-- Resolves views selected for rendering by @Controllers to .jsp resources 
 		in the /WEB-INF/views directory -->
