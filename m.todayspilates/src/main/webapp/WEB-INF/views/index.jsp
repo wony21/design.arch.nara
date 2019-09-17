@@ -42,8 +42,6 @@
         </div>
       </div>
       <div class="container">
-
-
         <div class="row nomargin">
           <div class="span4">
             <div class="logo">
