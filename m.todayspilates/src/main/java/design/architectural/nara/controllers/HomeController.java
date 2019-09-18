@@ -1,7 +1,5 @@
 package design.architectural.nara.controllers;
 
-import java.text.DateFormat;
-import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
@@ -15,13 +13,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import design.architectural.nara.common.CommonData;
 import design.architectural.nara.common.SessionUtils;
 import design.architectural.nara.domain.common.CommonService;
-import design.architectural.nara.domain.lesson.LessonService;
 
 /**
  * Handles requests for the application home page.
@@ -59,6 +55,13 @@ public class HomeController {
 		}
 		model.addAttribute("username", userName);
 		return index;
+	}
+	
+	@RequestMapping(value = "/index/{comment}", method = RequestMethod.GET)
+	public String index(Locale locale, Model model,
+						@PathVariable("comment") String comment) {
+		model.addAttribute("comment", comment);
+		return "index";
 	}
 	
 	@RequestMapping(value = "/index", method = RequestMethod.GET)

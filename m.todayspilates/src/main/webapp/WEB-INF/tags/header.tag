@@ -2,16 +2,16 @@
 
  <!-- css -->
  <link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans:300,400,600,700,800" rel="stylesheet">
- <link href="css/bootstrap.css" rel="stylesheet" />
- <link href="css/bootstrap-responsive.css" rel="stylesheet" />
- <link href="css/flexslider.css" rel="stylesheet" />
- <link href="css/prettyPhoto.css" rel="stylesheet" />
- <link href="css/camera.css" rel="stylesheet" />
- <link href="css/jquery.bxslider.css" rel="stylesheet" />
- <link href="css/style.css" rel="stylesheet" />
+ <link href="/css/bootstrap.css" rel="stylesheet" />
+ <link href="/css/bootstrap-responsive.css" rel="stylesheet" />
+ <link href="/css/flexslider.css" rel="stylesheet" />
+ <link href="/css/prettyPhoto.css" rel="stylesheet" />
+ <link href="/css/camera.css" rel="stylesheet" />
+ <link href="/css/jquery.bxslider.css" rel="stylesheet" />
+ <link href="/css/style.css" rel="stylesheet" />
 
  <!-- Theme skin -->
- <link href="color/default.css" rel="stylesheet" />
+ <link href="/color/default.css" rel="stylesheet" />
  
 
  <!-- Fav and touch icons -->

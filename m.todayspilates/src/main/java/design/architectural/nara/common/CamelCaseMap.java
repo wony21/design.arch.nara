@@ -9,6 +9,8 @@ import org.apache.ibatis.type.Alias;
 @Alias("camelmap")
 public class CamelCaseMap extends HashMap<Object, Object> {
 
+	private static final long serialVersionUID = -7970078036161044201L;
+
 	private String toCamelCase(String target) {
 		StringBuffer buffer = new StringBuffer();
 		for (String token : target.toLowerCase().split("_")) {

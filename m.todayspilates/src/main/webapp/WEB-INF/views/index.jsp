@@ -24,7 +24,7 @@
         <div class="container">
           <div class="row">
             <div class="span6">
-              <p class="topcontact"><i class="icon-phone"></i> +62 088 999 123</p>
+              <p class="topcontact"><i class="icon-phone"></i> +62 088 999 123 ${comment}</p>
             </div>
             <div class="span6">
 
@@ -45,7 +45,7 @@
         <div class="row nomargin">
           <div class="span4">
             <div class="logo">
-              <a href="index.html"><img src="img/logo.png" alt="" /></a>
+              <a href="index.html"><img src="/img/logo.png" alt="" /></a>
             </div>
           </div>
           <div class="span8">
@@ -129,7 +129,7 @@
       <div class="camera_wrap" id="camera-slide">
 
         <!-- slide 1 here -->
-        <div data-src="img/slides/camera/slide1/img1.jpg">
+        <div data-src="/img/slides/camera/slide1/img1.jpg">
           <div class="camera_caption fadeFromLeft">
             <div class="container">
               <div class="row">
@@ -144,7 +144,7 @@
 										</a>
                 </div>
                 <div class="span6">
-                  <img src="img/slides/camera/slide1/screen.png" alt="" class="animated bounceInDown delay1" />
+                  <img src="/img/slides/camera/slide1/screen.png" alt="" class="animated bounceInDown delay1" />
                 </div>
               </div>
             </div>
@@ -152,12 +152,12 @@
         </div>
 
         <!-- slide 2 here -->
-        <div data-src="img/slides/camera/slide2/img1.jpg">
+        <div data-src="/img/slides/camera/slide2/img1.jpg">
           <div class="camera_caption fadeFromLeft">
             <div class="container">
               <div class="row">
                 <div class="span6">
-                  <img src="img/slides/camera/slide2/iMac.png" alt="" />
+                  <img src="/img/slides/camera/slide2/iMac.png" alt="" />
                 </div>
                 <div class="span6">
                   <h2 class="animated fadeInDown"><strong>Put your <span class="colored">Opt in form</span></strong></h2>
@@ -176,14 +176,14 @@
         </div>
 
         <!-- slide 3 here -->
-        <div data-src="img/slides/camera/slide2/img1.jpg">
+        <div data-src="/img/slides/camera/slide2/img1.jpg">
           <div class="camera_caption fadeFromLeft">
             <div class="container">
               <div class="row">
                 <div class="span12 aligncenter">
                   <h2 class="animated fadeInDown"><strong><span class="colored">Responsive</span> and <span class="colored">cross broswer</span> compatibility</strong></h2>
                   <p class="animated fadeInUp">Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
-                  <img src="img/slides/camera/slide3/browsers.png" alt="" class="animated bounceInDown delay1" />
+                  <img src="/img/slides/camera/slide3/browsers.png" alt="" class="animated bounceInDown delay1" />
                 </div>
               </div>
             </div>
@@ -385,7 +385,7 @@
                   feugiat
                 </blockquote>
                 <div class="testimonial-autor">
-                  <img src="img/dummies/testimonial/1.png" alt="" />
+                  <img src="/img/dummies/testimonial/1.png" alt="" />
                   <h4>Hillary Doe</h4>
                   <a href="#">www.companyname.com</a>
                 </div>
@@ -396,7 +396,7 @@
                   feugiat
                 </blockquote>
                 <div class="testimonial-autor">
-                  <img src="img/dummies/testimonial/2.png" alt="" />
+                  <img src="/img/dummies/testimonial/2.png" alt="" />
                   <h4>Michael Doe</h4>
                   <a href="#">www.companyname.com</a>
                 </div>
@@ -407,7 +407,7 @@
                   feugiat
                 </blockquote>
                 <div class="testimonial-autor">
-                  <img src="img/dummies/testimonial/3.png" alt="" />
+                  <img src="/img/dummies/testimonial/3.png" alt="" />
                   <h4>Mark Donovan</h4>
                   <a href="#">www.companyname.com</a>
                 </div>
@@ -418,7 +418,7 @@
                   feugiat
                 </blockquote>
                 <div class="testimonial-autor">
-                  <img src="img/dummies/testimonial/4.png" alt="" />
+                  <img src="/img/dummies/testimonial/4.png" alt="" />
                   <h4>Marry Doe Elliot</h4>
                   <a href="#">www.companyname.com</a>
                 </div>
@@ -443,11 +443,11 @@
                 <div class="span3">
                   <div class="item">
                     <figure>
-                      <div><img src="img/dummies/works/1.jpg" alt="" /></div>
+                      <div><img src="/img/dummies/works/1.jpg" alt="" /></div>
                       <figcaption>
                         <div>
                           <span>
-								<a href="img/dummies/works/big.png" data-pretty="prettyPhoto[gallery1]" title="Portfolio caption here"><i class="icon-plus icon-circled icon-bglight icon-2x"></i></a>
+								<a href=/img/dummies/works/big.png" data-pretty="prettyPhoto[gallery1]" title="Portfolio caption here"><i class="icon-plus icon-circled icon-bglight icon-2x"></i></a>
 								</span>
                           <span>
 								<a href="#"><i class="icon-file icon-circled icon-bglight icon-2x"></i></a>
@@ -460,11 +460,11 @@
                 <div class="span3">
                   <div class="item">
                     <figure>
-                      <div><img src="img/dummies/works/2.jpg" alt="" /></div>
+                      <div><img src="/img/dummies/works/2.jpg" alt="" /></div>
                       <figcaption>
                         <div>
                           <span>
-								<a href="img/dummies/works/big.png" data-pretty="prettyPhoto[gallery1]" title="Portfolio caption here"><i class="icon-plus icon-circled icon-bglight icon-2x"></i></a>
+								<a href=/img/dummies/works/big.png" data-pretty="prettyPhoto[gallery1]" title="Portfolio caption here"><i class="icon-plus icon-circled icon-bglight icon-2x"></i></a>
 								</span>
                           <span>
 								<a href="#"><i class="icon-file icon-circled icon-bglight icon-2x"></i></a>
@@ -477,11 +477,11 @@
                 <div class="span3">
                   <div class="item">
                     <figure>
-                      <div><img src="img/dummies/works/3.jpg" alt="" /></div>
+                      <div><img src="/img/dummies/works/3.jpg" alt="" /></div>
                       <figcaption>
                         <div>
                           <span>
-								<a href="img/dummies/works/big.png" data-pretty="prettyPhoto[gallery1]" title="Portfolio caption here"><i class="icon-plus icon-circled icon-bglight icon-2x"></i></a>
+								<a href=/img/dummies/works/big.png" data-pretty="prettyPhoto[gallery1]" title="Portfolio caption here"><i class="icon-plus icon-circled icon-bglight icon-2x"></i></a>
 								</span>
                           <span>
 								<a href="#"><i class="icon-file icon-circled icon-bglight icon-2x"></i></a>
@@ -494,11 +494,11 @@
                 <div class="span3">
                   <div class="item">
                     <figure>
-                      <div><img src="img/dummies/works/4.jpg" alt="" /></div>
+                      <div><img src="/img/dummies/works/4.jpg" alt="" /></div>
                       <figcaption>
                         <div>
                           <span>
-								<a href="img/dummies/works/big.png" data-pretty="prettyPhoto[gallery1]" title="Portfolio caption here"><i class="icon-plus icon-circled icon-bglight icon-2x"></i></a>
+								<a href=/img/dummies/works/big.png" data-pretty="prettyPhoto[gallery1]" title="Portfolio caption here"><i class="icon-plus icon-circled icon-bglight icon-2x"></i></a>
 								</span>
                           <span>
 								<a href="#"><i class="icon-file icon-circled icon-bglight icon-2x"></i></a>
